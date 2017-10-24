@@ -15,8 +15,8 @@ const COLORS = {
 ctx.beginPath();
 ctx.moveTo(45, 468);
 ctx.lineTo(503, 469);
-ctx.lineTo(433, 253);
-ctx.lineTo(121, 247);
+ctx.lineTo(439, 264);
+ctx.lineTo(111, 264);
 ctx.lineTo(45, 468);
 ctx.closePath();
 ctx.fillStyle = COLORS.BROWN;
@@ -66,8 +66,11 @@ ctx.lineTo(161, 121);
 ctx.lineTo(274, 132);
 ctx.lineTo(387, 121);
 ctx.lineTo(449, 229);
-ctx.lineTo(406, 371);
-ctx.lineTo(141, 371);
+ctx.lineTo(411, 380);
+ctx.lineTo(296, 384);
+ctx.lineTo(276, 334);
+ctx.lineTo(253, 384);
+ctx.lineTo(140, 380);
 ctx.lineTo(101, 231);
 ctx.closePath();
 ctx.fillStyle = COLORS.FACE;
@@ -75,31 +78,36 @@ ctx.fill();
 
 // EYES
 ctx.beginPath();
-ctx.moveTo(175, 245);
-ctx.arc(175, 245, 22, 0, 2 * Math.PI);
-// ctx.arc(200, 200, 23, Math.PI / 2, Math.PI, true);
+ctx.moveTo(175, 255);
+ctx.arc(174, 255, 20, 0, 2 * Math.PI);
 ctx.closePath();
 ctx.fillStyle = COLORS.BROWN;
 ctx.fill();
 
 ctx.beginPath();
-ctx.moveTo(179, 226);
-ctx.lineTo(154, 259);
-ctx.lineTo(130, 239);
-ctx.lineTo(160, 210);
-ctx.lineTo(183, 226);
+ctx.moveTo(151, 261);
+ctx.lineTo(181, 231);
+ctx.lineTo(155, 230);
+ctx.lineTo(151, 261);
 ctx.closePath();
 ctx.fillStyle = COLORS.FACE;
 ctx.fill();
 
 ctx.beginPath();
-ctx.moveTo(375, 245);
-ctx.arc(375, 245, 22, 0, 2 *  Math.PI);
-// ctx.arc(200, 200, 23, Math.PI / 2, Math.PI, true);
+ctx.moveTo(375, 255);
+ctx.arc(375, 255, 20, 0, 2 * Math.PI);
 ctx.closePath();
 ctx.fillStyle = COLORS.BROWN;
 ctx.fill();
 
+ctx.beginPath();
+ctx.moveTo(367, 232);
+ctx.lineTo(404, 269);
+ctx.lineTo(411, 221);
+ctx.lineTo(370, 232);
+ctx.closePath();
+ctx.fillStyle = COLORS.FACE;
+ctx.fill();
 
 // NECK
 ctx.beginPath();
@@ -114,11 +122,11 @@ ctx.fill();
 // NOSE WHITE
 ctx.beginPath();
 ctx.moveTo(274, 132);
-ctx.lineTo(119, 409);
+ctx.lineTo(125, 409);
 ctx.lineTo(246, 410);
 ctx.lineTo(276, 337);
 ctx.lineTo(307, 408);
-ctx.lineTo(430, 410);
+ctx.lineTo(428, 410);
 ctx.lineTo(274, 132);
 ctx.closePath();
 ctx.fillStyle = COLORS.NOSE;
