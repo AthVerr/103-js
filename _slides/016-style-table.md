@@ -4,7 +4,9 @@ title: ""
 ---
 
 
-# How do you add color and style to your drawings?
+###  How do you add color and style to your drawings?
+
+{: .fragment} 
 
 | What                   | HOW                    |
 | :--------------------- | :--------------------- |
